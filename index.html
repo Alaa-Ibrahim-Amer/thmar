@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ثمار | فوائد المشاركات</title>
+  <meta name="description" content="ثمار: فوائد المشاركات وتأملاتهن في أوراق للقراءة.">
+  <meta property="og:title" content="ثمار | فوائد المشاركات">
+  <meta property="og:description" content="فوائد المشاركات وتأملاتهن كما شاركنها.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">ثمار</p>
+    <p class="motto">من المعرفة إلى الأثر</p>
+    <p class="motto-sub">لكلّ معرفةٍ ثمرة</p>
+
+    <h1>ثمار</h1>
+
+    <svg class="twig" viewBox="0 0 240 90" role="img" aria-label="غصن زيتون" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 62 C60 58 120 48 232 30" fill="none" stroke="#6b6b3a" stroke-width="2.5" stroke-linecap="round"/>
+      <g fill="#7d8447">
+        <ellipse cx="40" cy="48" rx="16" ry="5.5" transform="rotate(-35 40 48)"/>
+        <ellipse cx="62" cy="74" rx="16" ry="5.5" transform="rotate(30 62 74)"/>
+        <ellipse cx="88" cy="40" rx="16" ry="5.5" transform="rotate(-35 88 40)"/>
+        <ellipse cx="112" cy="66" rx="16" ry="5.5" transform="rotate(30 112 66)"/>
+        <ellipse cx="140" cy="30" rx="16" ry="5.5" transform="rotate(-35 140 30)"/>
+        <ellipse cx="164" cy="56" rx="16" ry="5.5" transform="rotate(30 164 56)"/>
+        <ellipse cx="192" cy="20" rx="16" ry="5.5" transform="rotate(-35 192 20)"/>
+        <ellipse cx="214" cy="44" rx="14" ry="5" transform="rotate(30 214 44)"/>
+      </g>
+      <g fill="#3f4524">
+        <ellipse cx="76" cy="58" rx="5" ry="6.5"/>
+        <ellipse cx="150" cy="44" rx="5" ry="6.5"/>
+      </g>
+    </svg>
+
+    <p class="lead">هنا نجمع فوائدنا،<br>ونترك أثرها ينمو.</p>
+    <p class="count"><strong id="hero-count">١٥</strong> ثمرة</p>
+  </header>
+
+  <main class="reader" aria-labelledby="reader-title">
+    <div class="reader-head">
+      <h2 id="reader-title">أوراق المعرفة</h2>
+      <span id="reader-count" class="pill">١٥ ثمرة</span>
+    </div>
+
+    <article class="leaf" aria-live="polite">
+      <h3 id="fruit-text"></h3>
+    </article>
+
+    <nav class="pager" aria-label="التنقل بين الثمار">
+      <button id="next" type="button" aria-label="التالي">التالي ›</button>
+      <span id="position" class="position"></span>
+      <button id="prev" type="button" aria-label="السابق">‹ السابق</button>
+    </nav>
+  </main>
+
+  <footer>
+    <p>ثمار المعرفة تبقى، حين نتشاركها</p>
+    <p class="muted">فوائد المشاركات</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
